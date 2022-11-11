@@ -1,45 +1,40 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="空座町の戦い"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「赤火砲か蒼火墜を打つ朽木ルキア」[l][r]
 
-メロスは激怒した。[l][r]
+虚が現れた！鬼道を打って倒そう！[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+君臨者よ[l][r]
 
-(中略)[l][r]
+血肉の仮面[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+万象・羽搏き[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+ヒトの名を冠す者よ[l][r]
+
+[link target=*tag_shakkahou] →焦熱と争乱　海隔て逆巻き南へと歩を進めよ [endlink][r]
+[link target=*tag_soukatui] → 真理と節制　罪知らぬ夢の壁に僅かに爪を立てよ[endlink][r]
 [s]
 
-*tag_sleep
+*tag_shakkahou
 
 [cm]
-
-[bg storage=sleep.jpg time=500]
-
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+破道の三十一　赤火砲[l][r]
+この虚には効かないようだ。[r]
 
 【 BAD END 】[l][cm]
 
-[jump target=*start]
-
-*tag_run
-
-[bg storage=run.jpg time=500]
+[jump target=*start]*tag_soukatui
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+
+
+効果のある鬼道を当てて虚を倒せた！
 
 【 GOOD END 】[l][cm]
 
